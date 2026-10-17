@@ -1,0 +1,5 @@
+/* Replace the email below with Maténin's preferred contact email before publication.
+   This uses the visitor's email app; it does not claim a message was sent. */
+const CONTACT_EMAIL='REPLACE_WITH_EMAIL@example.com';
+const contactForm=document.getElementById('contact-form');
+if(contactForm){contactForm.addEventListener('submit',event=>{event.preventDefault();if(!contactForm.reportValidity())return;const status=document.getElementById('form-status');if(CONTACT_EMAIL.startsWith('REPLACE_WITH_EMAIL')){status.textContent='Site owner: add your real email address in js/contact.js to activate this button.';return;}const data=new FormData(contactForm);const subject=String(data.get('subject')||'Portfolio enquiry');const message=`From: ${data.get('name')}\nReply-to: ${data.get('email')}\n\n${data.get('message')}`;window.location.href=`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;status.textContent='Your email app should open with a draft. Send it from there to complete your message.';});}
