@@ -14,10 +14,11 @@ A lightweight **three-page** responsive site in plain HTML, CSS and JavaScript. 
 index.html
 projects.html
 contact.html
+gallery.html
 css/style.css
 js/main.js
 js/projects.js
-js/contact.js
+js/gallery.js
 assets/{pumba,noe,ayming,generali}.svg
 assets/photo-profil.jpg  ← add this file
 ```
@@ -25,10 +26,11 @@ assets/photo-profil.jpg  ← add this file
 ## Before publishing — IMPORTANT
 
 1. **Add a real portrait** at `assets/photo-profil.jpg`. Until then, the hero shows an intentional `mb.` monogram.
-2. **Set the correct email** in `js/contact.js`: replace `REPLACE_WITH_EMAIL@example.com`. Until set, the form displays a setup notice and does not send anything. Even after set, visitors must press Send in their own email app. For truly submitted forms, connect a service such as Formspree.
+2. **Contact email**: the "Contact now" button in `contact.html` opens the visitor's email app addressed to `mateninpro@gmail.com`. Change the `mailto:` link there to use another address.
 3. **Complete the real project details** in `js/projects.js`. The structure includes Overview (project, duration, problem, goal, role/responsibilities), Understanding the User (research, personas, statements, journey maps, flows), Starting the Design (wireframes, low-fi), Refining the Design (hi-fi URL and accessibility), Going Forward (takeaways and next steps). Content that was not provided is clearly placeholder or suggested copy, **not verified personal achievements**.
-4. **Add working Figma prototype links**: set each project's `highfi` field in `js/projects.js` to its public `https://...` URL. Leave empty if unpublished.
-5. **Verify professional claims**, including the +20% / +30% metrics referenced in the supplied old source, before publishing.
+4. **Add working Figma prototype links**: set each project's `highfi` field in `js/projects.js` to its public `https://...` URL. It powers the "View the prototype ↗" button at the top of each case study and the link in the "Refining the design" section. While empty, the page shows "Prototype link coming soon".
+5. **Add your trip photos** to the Gallery page: put the images in `assets/gallery/`, then list each one in `js/gallery.js` (`src` = image path, `place` = caption, `year` = optional). Entries without `src` show a "Photo to add" placeholder.
+6. **Verify professional claims**, including the +20% / +30% metrics referenced in the supplied old source, before publishing.
 6. **Check the LinkedIn URL** in each HTML page.
 7. If applicable, add legal/privacy information separately or link to a compliant hosted legal notice. This three-page version intentionally has no fourth legal page.
 

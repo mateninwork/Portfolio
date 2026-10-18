@@ -9,27 +9,30 @@
   </title>
   <link href="css/style.css" rel="stylesheet"/>
  </head>
- <body>
+ <body class="home">
   <header class="site-header">
    <div class="container nav-inner">
-    <a aria-label="Mat&eacute;nin Bamba homepage" class="brand" href="index.html">
-     mat&eacute;nin
-     <span>
-      .
-     </span>
+    <a class="brand" href="index.html">
+     Mat&eacute;nin Bamba
     </a>
     <button aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation" class="menu-button">
      ☰
     </button>
     <nav aria-label="Main navigation" class="nav" id="main-nav">
      <a aria-current="page" href="index.html">
-      Home
+      About
      </a>
      <a href="projects.html">
-      Projects
+      Case studies
+     </a>
+     <a href="gallery.html">
+      Gallery
+     </a>
+     <a aria-label="Mat&eacute;nin Bamba on LinkedIn (opens in a new tab)" class="nav-icon" href="https://www.linkedin.com/in/mateninbamba" rel="noopener noreferrer" target="_blank" title="LinkedIn">
+      <svg aria-hidden="true" fill="currentColor" height="18" viewBox="0 0 24 24" width="18"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
      </a>
      <a class="nav-cta" href="contact.html">
-      Let's talk &nearrow;
+      Let's meet &nearrow;
      </a>
     </nav>
    </div>
@@ -38,44 +41,40 @@
    <section class="hero">
     <div class="container hero-grid">
      <div>
-      <span class="eyebrow">
-       Hello, I'm Mat&eacute;nin ✳
-      </span>
-      <h1>
-       Designing with
-       <em>
-        purpose.
-       </em>
-       <br/>
-       Building with empathy.
+      <h1 aria-label="Hello, I am Mat&eacute;nin" class="hero-name funky-name">
+       <span aria-hidden="true" class="fn-last">Hello, I am</span>
+       <span aria-hidden="true" class="fn-first"><span class="ch" style="--i:0">M</span><span class="ch" style="--i:1">a</span><span class="ch" style="--i:2">t</span><span class="ch" style="--i:3">&eacute;</span><span class="ch" style="--i:4">n</span><span class="ch" style="--i:5">i</span><span class="ch" style="--i:6">n</span></span>
       </h1>
+      <h2 class="hero-title">
+       Turning understanding into meaningful impact.
+      </h2>
       <p class="hero-copy">
-       I'm Mat&eacute;nin Bamba, a Junior Product Manager with a background in UX and design. I turn insights into thoughtful digital experiences, connecting people's needs with meaningful product decisions.
+       As a Product Manager, I investigate before building.
+       <br/>
+       User interviews, observation, data analysis: a structured methodology used to create solutions that solve real problems,
+       <br/>
+       with impact we can measure.
       </p>
       <div class="hero-actions">
-       <a class="btn btn-primary" href="projects.html">
+       <a class="btn btn-primary btn-ghost" href="projects.html">
         Explore my work
         <span class="arrow">
          &nearrow;
         </span>
        </a>
-       <a class="btn btn-outline" href="contact.html">
-        Get in touch
-        <span class="arrow">
-         &rarr;
-        </span>
-       </a>
-      </div>
-      <div class="scroll-note">
-       &darr; Scroll to discover
+       <span class="scroll-note">
+        &darr; Scroll to discover
+       </span>
       </div>
      </div>
      <div class="hero-visual">
-      <div class="portrait-bg">
-       <span aria-hidden="true" class="portrait-monogram">
-        mb.
-       </span>
-       <img alt="Portrait of Mat&eacute;nin Bamba" onerror="this.style.display='none'" src="assets/photo-profil.jpg"/>
+      <div class="portrait-wrap">
+       <div class="portrait-bg">
+        <span aria-hidden="true" class="portrait-monogram">
+         mb.
+        </span>
+        <img alt="Portrait of Mat&eacute;nin Bamba" onerror="this.style.display='none'" src="assets/photo-profil.jpg"/>
+       </div>
       </div>
       <span aria-hidden="true" class="decor-star">
        ✳
@@ -86,101 +85,378 @@
    <div class="strip">
     <div class="container strip-content">
      <span>
-      <b>
-       ✳
-      </b>
-      USER-CENTERED DESIGN
+      AI PRODUCTIVITY
      </span>
      <span>
-      <b>
-       ✳
-      </b>
-      PRODUCT STRATEGY
+      AUTONOMY
      </span>
      <span>
-      <b>
-       ✳
-      </b>
-      UX RESEARCH
+      TEAM WORK
      </span>
      <span>
-      <b>
-       ✳
-      </b>
-      CONTINUOUS LEARNING
+      ADAPTABILITY
      </span>
     </div>
    </div>
-   <section class="section">
-    <div class="container">
-     <div class="section-heading">
-      <div>
-       <span class="eyebrow">
-        01 / Selected work
-       </span>
-       <h2>
-        Projects with intention.
-       </h2>
-      </div>
-      <a class="text-link" href="projects.html">
-       All projects
-       <span class="arrow">
-        &nearrow;
-       </span>
-      </a>
-     </div>
-     <div class="project-grid" id="featured-projects">
-     </div>
-    </div>
-   </section>
-   <section class="about-band">
-    <div class="container about-layout">
+   <section class="about-band" id="about">
+    <div class="container about-layout align-start">
      <div>
       <span class="eyebrow">
-       02 / A little about me
+       01 / About me
       </span>
       <h2>
-       Curious by nature.
-       <br/>
-       Creative by design.
+       Curiosity as a boost.
       </h2>
+      <img alt="" class="section-illustration" height="520" loading="lazy" src="assets/illustrations/curiosity.png" width="640"/>
      </div>
      <div>
       <p>
-       I approach products at the intersection of people, design, and strategy. Whether mapping a user journey or shaping an early prototype, I enjoy making complex experiences feel simple and human.
+       Trained as a Graphic and UX designer, I have progressively shifted toward product-oriented roles where design supports decision-making, user value, and business impact. My experience spans cross-functional work within various and innovation environments.
       </p>
-      <div class="about-tags">
-       <span>
-        User research
-       </span>
-       <span>
-        Product discovery
-       </span>
-       <span>
-        UX design
-       </span>
-       <span>
-        Prototyping
-       </span>
+      <p>
+       I approach projects by framing problems through user needs, business goals, and strategic context. I translate insights into actionable directions that teams can align on, balancing usability, feasibility, and strategic relevance.
+      </p>
+      <p>
+       I keep my product culture sharp by actively following industry media such as The Product Crew, Le Ticket and Data for Good. I keep learning through online courses, and I enjoy testing new tools to keep my practices up to date.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="section" id="academic">
+    <div class="container about-layout align-start">
+     <div>
+      <span class="eyebrow">
+       02 / Academic cursus
+      </span>
+      <h2>
+       Where I learned.
+      </h2>
+      <img alt="" class="section-illustration" height="520" loading="lazy" src="assets/illustrations/learning.png" width="640"/>
+     </div>
+     <div class="timeline-groups">
+      <h3 class="timeline-heading">
+        Academic cursus
+       </h3>
+       <ol class="timeline">
+       <li>
+        <span class="timeline-date">
+         2023
+        </span>
+        <h4>
+         Master&rsquo;s Degree in Marketing and Digital Strategy
+        </h4>
+        <p class="timeline-school">
+         Digital Campus, Paris
+        </p>
+       </li>
+       <li>
+        <span class="timeline-date">
+         2021
+        </span>
+        <h4>
+         Bachelor&rsquo;s Degree in Design and Applied Arts
+        </h4>
+        <p class="timeline-school">
+         Strasbourg University
+        </p>
+       </li>
+       </ol>
+       <h3 class="timeline-heading">
+        Certification
+       </h3>
+       <ol class="timeline">
+       <li>
+        <span class="timeline-date">
+         2025
+        </span>
+        <h4>
+         Product Manager
+        </h4>
+        <p class="timeline-school">
+         Product Management School
+        </p>
+       </li>
+       </ol>
+     </div>
+    </div>
+   </section>
+   <section class="about-band" id="how-i-work">
+    <div class="container">
+     <span class="eyebrow">
+      03 / How I work
+     </span>
+     <h2 class="section-title">
+      My values and product philosophy.
+     </h2>
+     <p class="section-subtitle">
+      Four principles guide every product decision I make, from discovery to delivery.
+     </p>
+     <div class="work-grid">
+      <div class="work-step">
+       <div class="card-head">
+        <span aria-hidden="true" class="card-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg></span>
+        <h3>
+        User-centricity
+        </h3>
+       </div>
+       <p>
+         <span class="sentence">Every product decision starts with a deep understanding of users&rsquo; real needs.</span>
+         <span class="sentence">Before thinking about solutions, I seek to understand the problem: interviews, field observations, behavioural analysis.</span>
+       </p>
+      </div>
+      <div class="work-step">
+       <div class="card-head">
+        <span aria-hidden="true" class="card-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
+        <h3>
+        Outcome over output
+        </h3>
+       </div>
+       <p>
+         <span class="sentence">What matters isn&rsquo;t the number of features shipped, but the measurable impact on users and the business.</span>
+         <span class="sentence">Every product decision should tie back to a concrete outcome.</span>
+       </p>
+      </div>
+      <div class="work-step">
+       <div class="card-head">
+        <span aria-hidden="true" class="card-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M8 17v-5"/><path d="M13 17V8"/><path d="M18 17v-3"/></svg></span>
+        <h3>
+        Data&#8209;informed, not data&#8209;driven
+        </h3>
+       </div>
+       <p>
+         <span class="sentence">Data informs my decisions but never replaces product judgement.</span>
+         <span class="sentence">Metrics give me the &ldquo;what&rdquo;; user research gives me the &ldquo;why&rdquo;.</span>
+       </p>
+      </div>
+      <div class="work-step">
+       <div class="card-head">
+        <span aria-hidden="true" class="card-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewBox="0 0 24 24"><circle cx="9" cy="8" r="4"/><path d="M2 21v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/><path d="M22 21v-1a5 5 0 0 0-3.5-4.77"/></svg></span>
+        <h3>
+        Empowered teams
+        </h3>
+       </div>
+       <p>
+         <span class="sentence">The best solutions emerge when teams are given problems to solve rather than ready&#8209;made solutions.</span>
+         <span class="sentence">Context, clear goals, autonomy: creativity does the rest.</span>
+       </p>
       </div>
      </div>
     </div>
    </section>
-   <section class="section">
-    <div class="container section-heading">
-     <div>
-      <span class="eyebrow">
-       03 / Let's connect
-      </span>
-      <h2>
-       Have something in mind?
-      </h2>
-      <p class="muted">
-       I'd love to hear about interesting projects, collaborations, and opportunities.
-      </p>
+   <section class="section" id="skills">
+    <div class="container">
+     <span class="eyebrow">
+      04 / Skills &amp; tools
+     </span>
+     <h2 class="section-title">
+      My skills &amp; tools.
+     </h2>
+     <p class="section-subtitle">
+      Six skill families, proven tools, and an AI-augmented approach.
+     </p>
+     <div class="skill-grid">
+      <div class="skill-card">
+       <div class="card-head">
+        <span aria-hidden="true" class="card-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></span>
+        <h3>
+        Discovery &amp; user research
+        </h3>
+       </div>
+       <ul class="tool-list">
+        <li>
+         Hotjar
+        </li>
+        <li>
+         Maze
+        </li>
+        <li>
+         Testapic
+        </li>
+       </ul>
+      </div>
+      <div class="skill-card">
+       <div class="card-head">
+        <span aria-hidden="true" class="card-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-2.12 6.36-6.36 2.12 2.12-6.36z"/></svg></span>
+        <h3>
+        Strategy &amp; prioritization
+        </h3>
+       </div>
+       <ul class="tool-list">
+        <li>
+         Notion AI
+        </li>
+        <li>
+         Excel
+        </li>
+       </ul>
+      </div>
+      <div class="skill-card">
+       <div class="card-head">
+        <span aria-hidden="true" class="card-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewBox="0 0 24 24"><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16"/><path d="M3 21v-5h5"/><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8"/><path d="M21 3v5h-5"/></svg></span>
+        <h3>
+        Delivery &amp; agile
+        </h3>
+       </div>
+       <ul class="tool-list">
+        <li>
+         Jira AI
+        </li>
+        <li>
+         Notion AI
+        </li>
+        <li>
+         Slack
+        </li>
+       </ul>
+      </div>
+      <div class="skill-card">
+       <div class="card-head">
+        <span aria-hidden="true" class="card-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewBox="0 0 24 24"><path d="m3 17 6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg></span>
+        <h3>
+        Data &amp; analytics
+        </h3>
+       </div>
+       <ul class="tool-list">
+        <li>
+         Amplitude
+        </li>
+        <li>
+         SQL
+        </li>
+       </ul>
+      </div>
+      <div class="skill-card">
+       <div class="card-head">
+        <span aria-hidden="true" class="card-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewBox="0 0 24 24"><path d="m12 19 7-7 3 3-7 7-3-3z"/><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="m2 2 7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg></span>
+        <h3>
+        Design &amp; prototyping
+        </h3>
+       </div>
+       <ul class="tool-list">
+        <li>
+         Figma AI
+        </li>
+        <li>
+         Miro AI
+        </li>
+       </ul>
+      </div>
+      <div class="skill-card">
+       <div class="card-head">
+        <span aria-hidden="true" class="card-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewBox="0 0 24 24"><path d="m12 3 1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="m19 15 .8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg></span>
+        <h3>
+        Automation &amp; AI
+        </h3>
+       </div>
+       <ul class="tool-list">
+        <li>
+         Lovable
+        </li>
+        <li>
+         Claude AI
+        </li>
+       </ul>
+      </div>
      </div>
-     <a class="btn btn-primary" href="contact.html">
-      Start a conversation
+    </div>
+   </section>
+   <section class="about-band" id="faq">
+    <div class="container">
+     <span class="eyebrow">
+      05 / Answers to common queries about me
+     </span>
+     <h2 class="section-title">
+      Good to know.
+     </h2>
+     <div class="faq">
+      <details>
+       <summary>
+        What are you looking for in your next role?
+       </summary>
+       <p>
+        I am particularly interested in roles where I can leverage my design background to contribute to product strategy, user experience, and cross-functional collaboration.
+       </p>
+      </details>
+      <details>
+       <summary>
+        Are you open to full-time opportunities?
+       </summary>
+       <p>
+        I am open to full-time opportunities and also freelance collaboration.
+       </p>
+      </details>
+      <details>
+       <summary>
+        What kind of team or work environment do you thrive in?
+       </summary>
+       <p>
+        I thrive in collaborative, fast-paced environments where product, design, and technical teams work closely together. I value open communication, shared ownership, strong Tech culture and spaces where ideas can be challenged constructively to drive better product decisions.
+       </p>
+      </details>
+      <details>
+       <summary>
+        Are you open to relocation or remote work?
+       </summary>
+       <p>
+        Yes, I am open to both relocation and remote opportunities, depending on the role, team structure, and project context.
+       </p>
+      </details>
+      <details>
+       <summary>
+        What languages do you speak professionally?
+       </summary>
+       <p>
+        I am fluent in both French and English, written and spoken, and comfortable working in international environments.
+       </p>
+      </details>
+      <details>
+       <summary>
+        How are you currently developing your product management skills?
+       </summary>
+       <p>
+        I actively strengthen my product and strategic skills through certifications and YouTube tutorials.
+       </p>
+      </details>
+      <details>
+       <summary>
+        What makes your profile unique?
+       </summary>
+       <p>
+        My background in Design and Digital Marketing allows me to approach product challenges with strong user empathy and a problem-solving mindset. I am used to translating complex ideas into clear directions, facilitating alignment between stakeholders, and balancing creativity with strategic constraints. I leverage design as a foundation to grow into a product-oriented role.
+       </p>
+      </details>
+      <details>
+       <summary>
+        How do you handle disagreement between business goals and user needs?
+       </summary>
+       <p>
+        I see these situations as opportunities to clarify priorities and align teams around impact. I rely on user insights, data when available, and open discussion to explore trade-offs and find solutions that balance user value with business objectives. My goal is to make decisions transparent and purposeful rather than purely opinion-driven.
+       </p>
+      </details>
+      <details>
+       <summary>
+        Where are you based?
+       </summary>
+       <p>
+        Paris, France.
+       </p>
+      </details>
+     </div>
+    </div>
+   </section>
+   <section class="section cta-section" id="contact">
+    <div class="container contact-hero">
+     <span class="eyebrow">
+      06 / Let's connect
+     </span>
+     <h2>
+      Have something in mind?
+     </h2>
+     <p class="contact-info">
+      I'd love to hear about interesting projects, collaborations, and opportunities. I will answer within 48h.
+     </p>
+     <a class="btn btn-primary btn-solid" href="mailto:mateninpro@gmail.com">
+      Contact now
       <span class="arrow">
        &nearrow;
       </span>
@@ -199,10 +475,13 @@
     </span>
     <div class="footer-right">
      <a href="projects.html">
-      Projects
+      Case studies
      </a>
      <a href="contact.html">
       Contact
+     </a>
+     <a href="gallery.html">
+      Gallery
      </a>
      <a href="https://www.linkedin.com/in/mateninbamba" rel="noopener noreferrer" target="_blank">
       LinkedIn &nearrow;
