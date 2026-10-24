@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 560" width="300" height="560" font-family="Helvetica, Arial, sans-serif">
+  <defs><clipPath id="screen"><rect x="2" y="2" width="296" height="556" rx="32"/></clipPath></defs>
+  <rect x="2" y="2" width="296" height="556" rx="32" fill="#fff"/>
+  <rect x="115" y="16" width="70" height="8" rx="4" fill="#000"/>
+  <text x="26" y="62" font-size="13" fill="#000">GENERALI</text>
+  <circle cx="268" cy="57" r="9" fill="none" stroke="#000" stroke-width="1.5"/>
+  <text x="26" y="98" font-size="17" fill="#000">Insurance and services</text>
+  <text x="26" y="119" font-size="17" fill="#000">to support you every day</text>
+  <text x="26" y="150" font-size="11" fill="#9999b0">WHO ARE YOU?</text>
+
+  <g clip-path="url(#screen)">
+    <!-- Card 1: The protector (meerkat) -->
+    <rect x="26" y="164" width="140" height="320" rx="16" fill="#ffec40" stroke="#000" stroke-width="1.5"/>
+    <g transform="translate(96 214) scale(.8)">
+      <ellipse cx="0" cy="42" rx="19" ry="36" fill="#c98b4a"/>
+      <ellipse cx="0" cy="48" rx="10" ry="25" fill="#f3d9a8"/>
+      <ellipse cx="-9" cy="26" rx="4" ry="10" fill="#a86f36"/>
+      <ellipse cx="9" cy="26" rx="4" ry="10" fill="#a86f36"/>
+      <circle cx="-14" cy="-14" r="4" fill="#000"/><circle cx="14" cy="-14" r="4" fill="#000"/>
+      <ellipse cx="0" cy="-6" rx="16" ry="14" fill="#c98b4a"/>
+      <ellipse cx="0" cy="1" rx="7.5" ry="6.5" fill="#f3d9a8"/>
+      <ellipse cx="-7" cy="-9" rx="4.6" ry="3.8" fill="#000"/><ellipse cx="7" cy="-9" rx="4.6" ry="3.8" fill="#000"/>
+      <circle cx="-6" cy="-10" r="1.3" fill="#fff"/><circle cx="8" cy="-10" r="1.3" fill="#fff"/>
+      <circle cx="0" cy="-1" r="2.6" fill="#000"/>
+    </g>
+    <text x="36" y="306" font-size="14" fill="#000">The protector</text>
+    <rect x="36" y="316" width="120" height="20" rx="10" fill="#000"/>
+    <text x="96" y="330" font-size="9.5" fill="#fff" text-anchor="middle">3 insurances · 5 services</text>
+    <text x="36" y="358" font-size="10.5" fill="#000">For those who care</text>
+    <text x="36" y="372" font-size="10.5" fill="#000">for the youngest</text>
+    <text x="36" y="386" font-size="10.5" fill="#000">or the eldest.</text>
+    <rect x="36" y="440" width="120" height="30" rx="15" fill="#000"/>
+    <text x="96" y="459" font-size="12" fill="#fff" text-anchor="middle">Discover</text>
+
+    <!-- Card 2: The strategist (fox), peeking -->
+    <rect x="176" y="164" width="140" height="320" rx="16" fill="#bbc2ff"/>
+    <g transform="translate(246 228) scale(.85)">
+      <path d="M-26 56A26 26 0 0 1 26 56Z" fill="#ed5213"/>
+      <path d="M-9 56L0 36 9 56Z" fill="#fff"/>
+      <path d="M-24-8-15-38-3-16Z" fill="#ed5213"/><path d="M24-8 15-38 3-16Z" fill="#ed5213"/>
+      <path d="M-19-14-15-29-9-18Z" fill="#000"/><path d="M19-14 15-29 9-18Z" fill="#000"/>
+      <path d="M-28-14H28L0 24Z" fill="#ed5213"/>
+      <path d="M-28-14 0 6 0 24Z" fill="#fff"/><path d="M28-14 0 6 0 24Z" fill="#fff"/>
+      <ellipse cx="-9" cy="-5" rx="3" ry="3.4" fill="#000"/><ellipse cx="9" cy="-5" rx="3" ry="3.4" fill="#000"/>
+      <circle cx="0" cy="21" r="4" fill="#000"/>
+    </g>
+    <text x="186" y="306" font-size="14" fill="#000">The strategist</text>
+    <rect x="186" y="316" width="120" height="20" rx="10" fill="none" stroke="#000"/>
+    <text x="246" y="330" font-size="9.5" fill="#000" text-anchor="middle">4 insurances · 5 services</text>
+    <text x="186" y="358" font-size="10.5" fill="#000">To prevent everyday</text>
+    <text x="186" y="372" font-size="10.5" fill="#000">risks and have a</text>
+    <text x="186" y="386" font-size="10.5" fill="#000">solution when</text>
+    <text x="186" y="400" font-size="10.5" fill="#000">things go wrong.</text>
+    <rect x="186" y="440" width="120" height="30" rx="15" fill="none" stroke="#000"/>
+    <text x="246" y="459" font-size="12" fill="#000" text-anchor="middle">Discover</text>
+  </g>
+
+  <!-- Carousel pagination: 4 families -->
+  <rect x="122" y="506" width="20" height="8" rx="4" fill="#000"/>
+  <circle cx="154" cy="510" r="4" fill="#c6c6d2"/>
+  <circle cx="166" cy="510" r="4" fill="#c6c6d2"/>
+  <circle cx="178" cy="510" r="4" fill="#c6c6d2"/>
+  <text x="150" y="538" font-size="10" fill="#9999b0" text-anchor="middle">Swipe to see the traveller and the collector →</text>
+  <rect x="2" y="2" width="296" height="556" rx="32" fill="none" stroke="#000" stroke-width="2"/>
+</svg>
