@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 540" width="1080" height="540" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10z" fill="#000"/></marker>
+  </defs>
+  <rect width="1080" height="540" fill="#fff"/>
+
+  <!-- Lane labels -->
+  <g font-size="11" fill="#9999b0">
+    <text x="20" y="96">ONBOARDING</text>
+    <text x="20" y="246">DISCOVER</text>
+    <text x="20" y="376">PLAN</text>
+    <text x="20" y="506">EXPLORE</text>
+  </g>
+
+  <!-- Persona needs -->
+  <rect x="370" y="10" width="400" height="30" rx="15" fill="#ffaebc"/>
+  <text x="570" y="30" font-size="12" text-anchor="middle">Thomas · low-FODMAP: only sees what he can eat</text>
+  <path d="M460 40V62" stroke="#000" stroke-dasharray="3 3" marker-end="url(#a)"/>
+
+  <!-- Lane A: onboarding -->
+  <g font-size="14" text-anchor="middle">
+    <rect x="150" y="66" width="180" height="56" rx="12" fill="#ffec40" stroke="#000"/>
+    <text x="240" y="90">1 · Goals</text><text x="240" y="108" font-size="11">at least one</text>
+    <rect x="370" y="66" width="180" height="56" rx="12" fill="#ffec40" stroke="#000"/>
+    <text x="460" y="90">2 · Diet &amp; allergies</text><text x="460" y="108" font-size="11">strict exclusions</text>
+    <rect x="590" y="66" width="180" height="56" rx="12" fill="#ffec40" stroke="#000"/>
+    <text x="680" y="90">3 · Cooking routine</text><text x="680" y="108" font-size="11">meals, time, style</text>
+    <rect x="810" y="66" width="180" height="56" rx="12" fill="#000"/>
+    <text x="900" y="99" fill="#fff">Start exploring</text>
+  </g>
+  <g stroke="#000" stroke-width="1.5" fill="none" marker-end="url(#a)">
+    <path d="M330 94H368"/><path d="M550 94H588"/><path d="M770 94H808"/>
+    <path d="M900 122V160H225V208"/>
+  </g>
+
+  <!-- Lane B: discover by goal -->
+  <g font-size="14" text-anchor="middle">
+    <rect x="150" y="214" width="150" height="56" rx="12" fill="#fff" stroke="#000"/>
+    <text x="225" y="238">Discover</text><text x="225" y="256" font-size="11">home</text>
+    <rect x="330" y="214" width="150" height="56" rx="12" fill="#fff" stroke="#000"/>
+    <text x="405" y="238">Goal</text><text x="405" y="256" font-size="11">10 goals</text>
+    <rect x="510" y="214" width="150" height="56" rx="12" fill="#fff" stroke="#000"/>
+    <text x="585" y="238">Nutrient</text><text x="585" y="256" font-size="11">11 nutrients</text>
+    <rect x="690" y="214" width="150" height="56" rx="12" fill="#fff" stroke="#000"/>
+    <text x="765" y="238">Foods</text><text x="765" y="256" font-size="11">filtered by diet</text>
+    <rect x="870" y="214" width="150" height="56" rx="12" fill="#fff" stroke="#000" stroke-width="2"/>
+    <text x="945" y="238">Cooking list</text><text x="945" y="256" font-size="11">chosen ingredients</text>
+  </g>
+  <g stroke="#000" stroke-width="1.5" fill="none" marker-end="url(#a)">
+    <path d="M300 242H328"/><path d="M480 242H508"/><path d="M660 242H688"/><path d="M840 242H868"/>
+  </g>
+
+  <!-- Lane C: plan -->
+  <g font-size="14" text-anchor="middle">
+    <rect x="150" y="344" width="150" height="56" rx="12" fill="#fff" stroke="#000"/>
+    <text x="225" y="368">Recommended</text><text x="225" y="386" font-size="11">for you</text>
+    <rect x="330" y="344" width="150" height="56" rx="12" fill="#fff" stroke="#000"/>
+    <text x="405" y="368">Recipe</text><text x="405" y="386" font-size="11">nutrients per serving</text>
+    <rect x="510" y="344" width="150" height="56" rx="12" fill="#000"/>
+    <text x="585" y="368" fill="#fff">My week</text><text x="585" y="386" font-size="11" fill="#fff">time saved</text>
+    <rect x="870" y="344" width="150" height="56" rx="12" fill="#bbc2ff" stroke="#000"/>
+    <text x="945" y="368">Dish suggestions</text><text x="945" y="386" font-size="11">combine ingredients</text>
+  </g>
+  <g stroke="#000" stroke-width="1.5" fill="none" marker-end="url(#a)">
+    <path d="M225 270V342"/><path d="M300 372H328"/><path d="M480 372H508"/>
+    <path d="M945 270V342"/><path d="M870 372H662"/>
+  </g>
+
+  <!-- Lane D: explore + shopping -->
+  <g font-size="14" text-anchor="middle">
+    <rect x="150" y="474" width="150" height="56" rx="12" fill="#bbc2ff" stroke="#000"/>
+    <text x="225" y="498">Seasonal</text><text x="225" y="516" font-size="11">&amp; little-known foods</text>
+    <rect x="330" y="474" width="150" height="56" rx="12" fill="#fff" stroke="#000"/>
+    <text x="405" y="498">Foods</text><text x="405" y="516" font-size="11">month filtered</text>
+    <rect x="510" y="474" width="150" height="56" rx="12" fill="#000"/>
+    <text x="585" y="498" fill="#fff">Shopping list</text><text x="585" y="516" font-size="11" fill="#fff">by aisle, editable</text>
+  </g>
+  <g stroke="#000" stroke-width="1.5" fill="none" marker-end="url(#a)">
+    <path d="M150 242H124V502H148"/><path d="M300 502H328"/><path d="M585 400V472"/>
+  </g>
+
+  <!-- Persona need: Léa -->
+  <rect x="700" y="488" width="350" height="30" rx="15" fill="#ffaebc"/>
+  <text x="875" y="508" font-size="12" text-anchor="middle">Léa · busy: plans the week and shops in one go</text>
+  <path d="M700 503H664" stroke="#000" stroke-dasharray="3 3" marker-end="url(#a)"/>
+</svg>
