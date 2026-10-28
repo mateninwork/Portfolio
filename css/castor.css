@@ -204,9 +204,9 @@ h2 em,h1 em{font-family:var(--serif);font-style:italic}
 @media(max-width:800px){.detail .container{width:calc(100% - 36px)}.detail .case-section{grid-template-columns:1fr;gap:18px}}
 
 /* Wider Team column so the team fits on one line */
-.detail .facts{grid-template-columns:repeat(4,1fr) 1.9fr 1fr}
-.detail .facts-tools{grid-template-columns:1fr 6.9fr}
-@media(max-width:800px){.detail .facts{grid-template-columns:repeat(2,1fr)}.detail .facts-tools{grid-template-columns:1fr}}
+.detail .facts,.detail .facts-tools{grid-template-columns:repeat(5,minmax(0,1fr));column-gap:32px}
+.detail .facts-tools>div:last-child{grid-column:2/-1}
+@media(max-width:800px){.detail .facts{grid-template-columns:repeat(2,1fr)}.detail .facts-tools{grid-template-columns:1fr}.detail .facts-tools>div:last-child{grid-column:auto}}
 
 /* Method steps: colourful bands with geometric icons */
 .story-steps{list-style:none;padding:0;margin:14px 0 18px;display:grid;grid-template-columns:1fr;gap:8px}
@@ -259,3 +259,19 @@ h2 em,h1 em{font-family:var(--serif);font-style:italic}
 .story-table thead th{text-align:left;font-weight:400;font-size:13px;text-transform:uppercase;color:var(--muted);padding:0 16px 10px 0;border-bottom:1px solid #000}
 .story-table tbody th,.story-table td{text-align:left;vertical-align:top;padding:12px 16px 12px 0;border-bottom:1px solid var(--line)}
 .story-table tbody th{font-weight:500;color:#000}
+
+/* Story image / reserved image slot */
+.story-figure{margin:14px 0 18px}
+.story-figure img{width:100%;height:auto;display:block;border:1px solid #000;border-radius:16px}
+.story-placeholder{display:flex;align-items:center;justify-content:center;aspect-ratio:16/7;border:1px dashed var(--muted);border-radius:16px;color:var(--muted);font-size:13px;text-transform:uppercase;text-align:center;padding:16px}
+.story-figure figcaption{font-size:13px;color:var(--muted);margin-top:8px}
+.prototype-cta+.prototype-cta{margin-left:24px}
+
+/* Impact / load ratings in prioritization tables */
+.rate{display:inline-block;padding:3px 10px;border-radius:20px;font-size:12px;line-height:1.4;white-space:nowrap;color:#000}
+.rate-high,.load-xs{background:#c9ecd4}
+.load-s{background:#e3f4e8}
+.rate-medium,.load-m{background:#fff3c4}
+.rate-low,.load-l{background:#ffe1e7}
+.load-xl{background:#ffaebc}
+.card-bottom:has(.card-proto+.card-proto){justify-content:flex-start;gap:24px;flex-wrap:wrap}

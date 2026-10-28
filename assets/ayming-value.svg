@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="1000" height="500" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1000" height="500" fill="#fff"/>
+  <!-- connectors -->
+  <g stroke="#000" stroke-width="1.5">
+    <path d="M340 105L428 160"/><path d="M660 105L572 160"/><path d="M500 282V320"/>
+  </g>
+  <!-- centre -->
+  <circle cx="500" cy="200" r="82" fill="#000"/>
+  <text x="500" y="196" font-size="24" fill="#fff" text-anchor="middle">Advance</text>
+  <text x="500" y="222" font-size="13" fill="#fff" text-anchor="middle" opacity=".8">by Ayming</text>
+
+  <!-- pillars -->
+  <g>
+    <rect x="30" y="40" width="310" height="130" rx="18" fill="#fff" stroke="#000"/>
+    <circle cx="70" cy="80" r="16" fill="#bbc2ff"/>
+    <text x="98" y="86" font-size="20">Online storage</text>
+    <text x="54" y="122" font-size="14" fill="#333">Secure access to files anytime,</text>
+    <text x="54" y="142" font-size="14" fill="#333">anywhere, in the cloud</text>
+  </g>
+  <g>
+    <rect x="660" y="40" width="310" height="130" rx="18" fill="#fff" stroke="#000"/>
+    <circle cx="700" cy="80" r="16" fill="#ffaebc"/>
+    <text x="728" y="86" font-size="20">Traceability</text>
+    <text x="684" y="122" font-size="14" fill="#333">Every action and change</text>
+    <text x="684" y="142" font-size="14" fill="#333">tracked effortlessly</text>
+  </g>
+  <g>
+    <rect x="320" y="320" width="360" height="150" rx="18" fill="#fff" stroke="#000"/>
+    <circle cx="360" cy="360" r="16" fill="#1d72d4"/>
+    <text x="388" y="366" font-size="20">Transparency</text>
+    <text x="344" y="402" font-size="14" fill="#333">Clear visibility into process and progress</text>
+    <text x="344" y="422" font-size="14" fill="#333">to ease operational exchanges between</text>
+    <text x="344" y="442" font-size="14" fill="#333">teams and clients</text>
+  </g>
+</svg>
